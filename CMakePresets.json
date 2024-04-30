@@ -32,7 +32,8 @@
 			"displayName": "gcc debug",
 			"inherits": "options",
 			"generator": "Ninja",
-			"binaryDir": "${sourceDir}/jc_build",
+			"binaryDir": "${sourceDir}/out/build/${presetName}",
+			"installDir": "${sourceDir}/out/install/${presetName}",
 			"cacheVariables": {
 				"CMAKE_BUILD_TYPE": "Debug"
 			}
@@ -42,7 +43,8 @@
 			"displayName": "gcc release",
 			"inherits": "options",
 			"generator": "Ninja",
-			"binaryDir": "${sourceDir}/jc_build",
+			"binaryDir": "${sourceDir}/out/build/${presetName}",
+			"installDir": "${sourceDir}/out/install/${presetName}",
 			"cacheVariables": {
 				"CMAKE_BUILD_TYPE": "Release"
 			}
