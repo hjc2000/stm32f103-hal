@@ -20,7 +20,7 @@ extern "C" {
 	#include<stm32f1xx_hal_rcc.h>
 	#include<stm32f1xx_hal_rcc_ex.h>
 	#include<stm32f1xx_hal_uart.h>
-
+	#include<stm32f1xx_ll_fsmc.h>
 
 
 
