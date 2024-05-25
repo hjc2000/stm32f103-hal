@@ -1,6 +1,7 @@
 ﻿{
 	"version": 3,
 	"configurePresets": [
+		// arm-none-eabi-cortex-m3
 		{
 			"name": "arm-none-eabi-cortex-m3-base",
 			"hidden": true,
@@ -26,8 +27,8 @@
 			}
 		},
 		{
-			"name": "gcc debug",
-			"displayName": "gcc debug",
+			"name": "arm-none-eabi-cortex-m3-debug",
+			"displayName": "arm-none-eabi-cortex-m3-debug",
 			"inherits": "arm-none-eabi-cortex-m3-base",
 			"generator": "Ninja",
 			"binaryDir": "${sourceDir}/jc_build",
@@ -36,8 +37,8 @@
 			}
 		},
 		{
-			"name": "gcc release",
-			"displayName": "gcc release",
+			"name": "arm-none-eabi-cortex-m3-release",
+			"displayName": "arm-none-eabi-cortex-m3-release",
 			"inherits": "arm-none-eabi-cortex-m3-base",
 			"generator": "Ninja",
 			"binaryDir": "${sourceDir}/jc_build",
