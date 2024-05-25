@@ -3,8 +3,6 @@ include(${cpp_lib_build_scripts_path}/cmake-module/setup.cmake)
 
 set(ProjectName stm32f103-hal)
 project(${ProjectName})
-set (CMAKE_EXECUTABLE_SUFFIX ".elf")
-set (CMAKE_STATIC_LIBRARY_SUFFIX ".a")
 
 enable_language(ASM)
 set(CMAKE_CXX_STANDARD 20)
