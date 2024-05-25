@@ -2,7 +2,7 @@
 	"version": 3,
 	"configurePresets": [
 		{
-			"name": "options",
+			"name": "arm-none-eabi-cortex-m3-base",
 			"hidden": true,
 			"cacheVariables": {
 				"option_install_headers": true,
@@ -28,7 +28,7 @@
 		{
 			"name": "gcc debug",
 			"displayName": "gcc debug",
-			"inherits": "options",
+			"inherits": "arm-none-eabi-cortex-m3-base",
 			"generator": "Ninja",
 			"binaryDir": "${sourceDir}/jc_build",
 			"cacheVariables": {
@@ -38,7 +38,7 @@
 		{
 			"name": "gcc release",
 			"displayName": "gcc release",
-			"inherits": "options",
+			"inherits": "arm-none-eabi-cortex-m3-base",
 			"generator": "Ninja",
 			"binaryDir": "${sourceDir}/jc_build",
 			"cacheVariables": {
