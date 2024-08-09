@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.20)
 include(${cpp_lib_build_scripts_path}/cmake-module/setup.cmake)
 
-set(ProjectName stm32f103-hal)
+set(ProjectName stm32f103zet6-hal)
 project(${ProjectName})
 
 enable_language(ASM)
