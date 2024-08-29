@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.20)
-include(${cpp_lib_build_scripts_path}/cmake-module/setup.cmake)
+include($ENV{cpp_lib_build_scripts_path}/cmake-module/setup.cmake)
 
 set(ProjectName stm32f103zet6-hal)
 project(${ProjectName})
@@ -23,4 +23,4 @@ target_compile_definitions(
 
 target_import_src(${ProjectName})
 
-set(CMAKE_INSTALL_PREFIX ${cpp_lib_build_scripts_path}/${platform}/.libs/${ProjectName}/)
+set(CMAKE_INSTALL_PREFIX $ENV{cpp_lib_build_scripts_path}/${platform}/.libs/${ProjectName}/)
